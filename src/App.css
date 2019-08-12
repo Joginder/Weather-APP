@@ -1,33 +1,41 @@
+.fa-earlybirds {
+    color: hsl(141, 71%, 48%);
+    margin-right: 10px;
+}
+h1.title {
+    text-align: center;
+    margin: 80px 0 0 !important;
+    font-size: 3em;
+}
 .App {
-  text-align: center;
+    padding: 0 5%;
+}
+.header-content {
+    margin: 0 0 50px;
+}
+p {
+    text-align: center;
+    color: white;
+}
+body {
+    padding: 1px 0 0;
+    background: url('bg.jpg');
+    background-size: cover;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    display:  flex;
+    flex-flow: column;
+}
+form input {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-family: open sans;
+}
+form button {
+    width: 200px;
+    margin: 20px auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
