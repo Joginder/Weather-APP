@@ -7,7 +7,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons-weather": "^1.0.5",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-service-worker": "^0.1.1"
   },
   "scripts": {
